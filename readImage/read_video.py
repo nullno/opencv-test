@@ -6,7 +6,7 @@ def scale_frame(frame, scale = 1):
     dim = (width, height)
     return cv.resize(frame, dim, interpolation=cv.INTER_AREA)
 
-capture = cv.VideoCapture('./assets/robot.mp4')
+capture = cv.VideoCapture('./readImage/assets/robot.mp4')
 
 # cv.CAP_PROP_FRAME_WIDTH = 100
 
